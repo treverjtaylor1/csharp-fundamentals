@@ -1,16 +1,14 @@
-﻿using System;
+﻿using Myfirstapplication;
 
-namespace MyFirstApplication
+
+HouseExample();
+
+void HouseExample()
 {
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello World!");
-
-        }
-    }
+House myHouse = new House();
+myHouse.DoorOpenClose();
 }
+
 
 
 
